@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
-    •content: "";
-    •display: block;
-    clear: both;
-}
-
 body{
     font-family: 'Fredoka', sans-serif;;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
 }
 
 .contenitore{
@@ -22,46 +22,129 @@ body{
 
 
 
+
 .titolo{
     font-size: 35px;
-    color: fuchsia;
+    color:red;
     margin-top: 20px;
 
 }
 
 .testo{
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 
-
+.parte-centrale{
+    margin-left: 15px;
+}
 
 .riquadri .sei-riquadri{
     float: left;
     margin: 1rem, 1%;
     width: 31%;
     height: 70px;
-    background-color: rgb(35, 26, 26);
-    margin-top: 30px;
+    background-color: black;
+    margin-top: 20px;
     margin-left: 15px;
+    margin-bottom: 20px;
 
 }
 
+.riquadri{
+    width: 60%;
+    margin: auto;
+}
 
 
-.marco{
+.foto{
    height: 100%;
    width: 25%;
    
+   float: left;
 
-   
-   
 }
 
-.nome-marco{
+.nome{
     font-size: 15px;
     display: inline-block;
     vertical-align:top;
     color: white;
+    margin-top: 3px;
+    
 }
+
+.specifiche-marco{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.specifiche-laura{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.specifiche-giorgio{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.specifiche-marta{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.specifiche-roberto{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.specifiche-daniela{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.email-marco{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+.email-laura{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+
+.email-giorgio{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+.email-marta{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+.email-roberto{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+.email-daniela{
+    color: aqua;
+    font-size: 10px;
+    margin-top: 5px;
+   
+}
+
+
 
 
