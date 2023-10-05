@@ -27,13 +27,16 @@ body{
     margin-top: 25px;
 }
 
+
+
 .riquadri .sei-riquadri{
     float: left;
     margin: 1rem, 1%;
     width: 31%;
     height: 70px;
-    background-color: black;
-    margin-top: 20px;
+    background-color: rgb(35, 26, 26);
+    margin-top: 30px;
+    margin-left: 15px;
 
 }
 
@@ -42,7 +45,9 @@ body{
 .marco{
    height: 100%;
    width: 25%;
-   align-items:end;
+   
+
+   
    
 }
 
@@ -52,4 +57,5 @@ body{
     vertical-align:top;
     color: white;
 }
+
 
