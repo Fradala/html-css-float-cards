@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;;
+}
+
+.contenitore{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+
+
+.titolo{
+    font-size: 35px;
+    color: fuchsia;
+    margin-top: 20px;
+
+}
+
+.testo{
+    margin-top: 25px;
+}
+
+.riquadri .sei-riquadri{
+    float: left;
+    margin: 1rem, 1%;
+    width: 31%;
+    height: 70px;
+    background-color: black;
+    margin-top: 20px;
+
+}
+
+
+
+.marco{
+   height: 100%;
+   width: 25%;
+   align-items:end;
+   
+}
+
+.nome-marco{
+    font-size: 15px;
+    display: inline-block;
+    vertical-align:top;
+    color: white;
+}
+
